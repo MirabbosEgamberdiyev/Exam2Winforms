@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, rgba(114, 180, 228, 1) 10%, rgba(150, 89, 177, 1) 100%);
+    height: 100vh;
+}
+
+.container {
+    width: 600px;
+    height: 530px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.reg {
+    margin: 20px;
+    margin-bottom: 16px;
+}
+
+.inputname {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.words {
+    margin: 8px;
+    font-size: larger;
+    font-weight: 900;
+}
+
+input {
+    width: 240px;
+    padding: 10px;
+    margin: 0px 8px;
+    margin-top: 5px;
+    border-color: rgba(44, 38, 38, 0.829);
+    border-width: 1px 1px;
+    border-radius: 5px;
+}
+
+.Gender {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+#male {
+    width: 20px;
+}
+
+#female {
+    width: 20px;
+}
+
+#dontGender {
+    width: 20px;
+}
+
+.Gender1 p {
+    margin-top: 17px;
+    margin-left: 17px;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.Gender label {
+    margin-right: 40px;
+}
+
+.register {
+    width: 560px;
+    background: linear-gradient(120deg, rgba(114, 180, 228, 1) 10%, rgba(150, 89, 177, 1) 100%);
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.register {
+    text-align: center;
+    padding: 4px;
+    margin-top: 30px;
+    color: white;
+    font-size: larger;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border-style: none;
+}
+
+.Gender input {
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.rang {
+    height: 3px;
+    width: 33px;
+    background: linear-gradient(120deg, rgba(114, 180, 228, 1) 10%, rgba(150, 89, 177, 1) 100%);
+}
